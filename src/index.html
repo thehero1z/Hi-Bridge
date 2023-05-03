@@ -9,6 +9,7 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <!-- font awesome -->
+    <script src="/src/main.js" defer></script>
 </head>
 <body class="bg-color-primary text-color-white">
 <header>
@@ -33,13 +34,13 @@
         <div id="hamburger" class="lg:hidden cursor-pointer"> 
             <i class="fa-solid fa-bars"></i>
         </div>
-        <div id="menu" class="bg-color-primary-dark h-[100vh] absolute inset-0">
+        <div id="menu" class=" hidden bg-color-primary-dark h-[100vh] absolute inset-0">
             <ul class="h-full grid place-items-center py-20">
-                <li><a class="hover:text-color-secondary" href="#home">Home</a></li>
-                <li ><a class="hover:text-color-secondary" href="#features">Features</a></li>
-                <li><a class="hover:text-color-secondary" href="#pricing">Pricing</a></li>
-                <li><a class="hover:text-color-secondary" href="#features">About</a></li>
-                <li><a class="hover:text-color-secondary" href="#testimonials">Testimonials</a></li>
+                <li><a id="hLink" class="hover:text-color-secondary" href="#home">Home</a></li>
+                <li ><a class="hover:text-color-secondary"id="hLink"  href="#features">Features</a></li>
+                <li><aid="hLink"  class="hover:text-color-secondary" href="#pricing">Pricing</a></li>
+                <li><a class="hover:text-color-secondary"id="hLink"  href="#features">About</a></li>
+                <li><a id="hLink"  class="hover:text-color-secondary" href="#testimonials">Testimonials</a></li>
 
                 <li> <button class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">Free Trial</button></li>
 
