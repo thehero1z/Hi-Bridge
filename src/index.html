@@ -9,12 +9,19 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <!-- font awesome -->
+    <!-- JavaScript -->
     <script src="/src/main.js" defer></script>
+    <!-- Javascript -->
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins&family=Roboto&family=Rubik+Pixels&display=swap" rel="stylesheet">
+    <!-- google fonts end here -->
 </head>
 <body class="bg-color-primary text-color-white">
 <header>
-    <nav class=" container flex justify-between items-center">
-        <div class="text-color-secondary tracking-wider py-5 font-bold text-3xl">
+    <nav class=" font-mono container flex justify-between items-center">
+        <div class="text-color-secondary tracking-wider py-5 font-bold text-3xl font-cursive">
             <a href="#home">
              <span class="text-color-white">Hi</span> Bridge
             </a>
@@ -27,26 +34,45 @@
                 <li><a class="hover:text-color-secondary" href="#features">About</a></li>
                 <li><a class="hover:text-color-secondary" href="#testimonials">Testimonials</a></li>
 
-                <li> <button class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">Free Trial</button></li>
+                <li> <button class="btn">Free Trial</button></li>
             </ul>
         </div>
         <!-- hamburger menu -->
-        <div id="hamburger" class="lg:hidden cursor-pointer"> 
-            <i class="fa-solid fa-bars"></i>
+        <div id="hamburger" class="lg:hidden cursor-pointer z-50 text-2xl px-5">
+            <i id="faSolid" class="fa-solid fa-bars"></i>
         </div>
-        <div id="menu" class=" hidden bg-color-primary-dark h-[100vh] absolute inset-0">
+        <div id="menu" class=" hidden bg-color-primary-dark h-[100vh] absolute inset-0 ">
             <ul class="h-full grid place-items-center py-20">
                 <li><a id="hLink" class="hover:text-color-secondary" href="#home">Home</a></li>
-                <li ><a class="hover:text-color-secondary"id="hLink"  href="#features">Features</a></li>
+                <li ><a class="hover:text-color-secondary" id="hLink"  href="#features">Features</a></li>
                 <li><aid="hLink"  class="hover:text-color-secondary" href="#pricing">Pricing</a></li>
                 <li><a class="hover:text-color-secondary"id="hLink"  href="#features">About</a></li>
                 <li><a id="hLink"  class="hover:text-color-secondary" href="#testimonials">Testimonials</a></li>
-
-                <li> <button class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">Free Trial</button></li>
+                <li> <button class="btn">Free Trial</button></li>
 
             </ul>
         </div>
     </nav>
+    <!-- hamburger menu ends here -->
 </header>  
+<!-- Home Page // Hero section -->
+<main>
+    <section id="home">
+        <div class="container py-20">
+            <div class="flex flex-col items-center z-20 md:flex-row">
+                <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
+                    <h1 class= "heading mb-4">Hire the Right Man For The Job</h1>
+                    <p class="font-mono leading-relaxed mb-10 lg:text-lg">
+                        Hi Bridge connects you with skilled developers and graphic designers who are committed to your satisfaction. Our platform only features certified professionals.
+                    </p>
+                    <li class="list-none"><button class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200"> Get Started</button></li>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="/images/homepage3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 </body>
 </html>

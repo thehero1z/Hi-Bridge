@@ -19,6 +19,12 @@ module.exports = {
         default:"20px",
         md:"50px",
       }
+    },
+    fontFamily:{
+      'sans': ['Roboto', 'sans-serif'],
+      'mono': ['Poppins', 'sans-serif'],
+      'cursive':['Rubik Pixels', 'cursive']
+
     }
   },
   plugins: [],
