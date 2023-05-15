@@ -9,7 +9,8 @@ module.exports = {
              "color-primary-dark": "#010417",
              "color-secondary": "#ff7d3b",
              "color-gray": "#333",
-             "color-white": "#fff"
+             "color-white": "#fff",
+             "color-blob": "#A427DF",
              
       }
     },
@@ -21,8 +22,8 @@ module.exports = {
       }
     },
     fontFamily:{
-      'sans': ['Roboto', 'sans-serif'],
-      'mono': ['Poppins', 'sans-serif'],
+      'sans': ['Poppins', 'sans-serif'],
+      'mono': ['Montserrat', 'sans-serif'],
       'cursive':['Rubik Pixels', 'cursive']
 
     }
