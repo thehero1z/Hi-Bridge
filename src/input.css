@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 .btn{
-    @apply bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200 font-sans;
+    @apply bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200;
 }
 .heading{
-    @apply font-sans text-3xl font-extra-bold md:text-4xl font-extra-bold leading-snug;
+    @apply font-sans text-3xl font-extra-bold md:text-4xl leading-snug;
 }
