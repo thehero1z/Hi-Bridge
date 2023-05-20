@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+   
     extend: {
       colors: {
              "color-primary":"#01051e",
@@ -21,13 +22,19 @@ module.exports = {
         md:"50px",
       }
     },
+  
     fontFamily:{
       'sans': ['Figtree', 'sans-serif'],
       'mono': ['Montserrat', 'sans-serif'],
       'cursive':['Rubik Pixels', 'cursive']
-
+    
+    },
+    fontWeight:{
+      'extra-bold': '900',
     }
   },
+  
+
   plugins: [],
 }
 
