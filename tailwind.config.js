@@ -33,6 +33,9 @@ module.exports = {
       'extra-bold': '900',
     }
   },
+  fontSize:{
+    'text-6xl': '6rem',
+  },
   
 
   plugins: [],
